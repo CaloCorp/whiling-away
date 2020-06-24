@@ -199,7 +199,66 @@ function challengeNumber (num) {
     
     saySomethingSevenTimes ('rasengan')
     
+ challengeNumber(11)  
+ 
+ function repeatXTimes (str, num){
+
+    let count =0
+
+while (count <= num){
+
+
+count ++
+console.log(str)
+
+if (count >= num){
+    trueCount = false}
+}
+ }
+ 
+
+ repeatXTimes('Good-bye', 4)
+
+ repeatXTimes('Get out!', 6)
+
+ challengeNumber(12)
+
+ function printString(str){
+
+    let i =0
+
+    while(i< str.length){
+
+        console.log(str[i])
+        i++
+    }
+ }
     
-    
-    
-    
+ printString('think')   
+  challengeNumber(13) 
+
+  function printEveryOtherChar(str){
+
+    let i =1
+
+    while(i< str.length){
+
+        console.log(str[i])
+        i= i+2
+    }
+ }
+
+ printEveryOtherChar('Nobody')
+
+ challengeNumber(14)
+
+ function printStringBackwards(str){
+
+    let i = str.length -1
+
+    while(i >= 0){
+    console.log(str[i])
+    i--
+ }
+ }
+ printStringBackwards('radar')
