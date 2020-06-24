@@ -295,7 +295,7 @@ if (count >= num){
  challengeNumber(16)
 
  function fibonacci(num){
-
+let fibStart = [0,1]
     let start =1 
 
 
